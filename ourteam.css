@@ -264,6 +264,10 @@ h4.devroleR {
     border-radius: 5px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 /* START MEDIA QUERY 800PX */
 
 @media (max-width: 1200px) {
