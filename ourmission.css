@@ -168,6 +168,9 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
     border-radius: 5px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
 
 /* START SECTION 1,2,3,4  */
 
