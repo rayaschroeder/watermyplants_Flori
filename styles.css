@@ -88,6 +88,10 @@ a.hlogonamea, a.hlogonamesa:link, a.hlogonamesa:visited {
     border-radius: 5px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 /* Section 1 */
 #section-1 {
     display: flex;
