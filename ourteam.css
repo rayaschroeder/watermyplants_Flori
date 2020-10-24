@@ -135,12 +135,16 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 	display:inline-flex;
 	letter-spacing:1.3px;	
 	color:white;
+	text-decoration: none;
 	font-family:hind;
 	font-size:4rem;
 	font-weight: bold;
 }
 .flogoimg {
 	height:4rem;
+}
+.footerB-L {
+    display: flex;
 }
 .footerB-R {
     display: flex;
