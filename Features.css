@@ -276,6 +276,10 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
     border-radius: 5px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 
 /* MEDIA QUERIES */
 @media(max-width: 1200px){
