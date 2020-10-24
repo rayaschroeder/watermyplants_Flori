@@ -1,0 +1,348 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* END CSS RESET */
+
+/* HEADER LOGO */
+.hlogo {
+	display:inline-flex;
+	font-size:4rem;
+	font-family:hind;
+	font-weight:700;
+	color:#314936;
+	padding:2rem;
+}
+a.hlogonamea, a.hlogonamesa:link, a.hlogonamesa:visited {
+	text-decoration:none;
+	font-size:4rem;
+	font-family:hind;
+	font-weight:700;
+	color:#314936;
+}
+.hlogoname {
+
+	padding-left:1rem;
+	padding-top:.8rem;
+	letter-spacing:1.3px;	
+}
+.hlogoimg {
+	height:5rem;
+}
+
+/* FOOTER TOP SECTION */
+.footertop {
+    display:flex;
+    margin-top: 150px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5%;
+	background-color:#262730;
+}
+.footerT-L {
+    width: 60%;
+}
+.footerT-R {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.footerLtext {
+	font-family:Montserrat;
+	font-weight:700;
+	color:white;
+	font-size:3rem;
+	letter-spacing:1.3px;
+}
+.footerLtext {
+	padding-bottom:3rem;
+}
+.liheaders {
+    color:white;
+    padding-bottom: 1rem;
+    font-size:2rem;
+	font-family:Montserrat;
+	Font-weight: bold;
+	letter-spacing: 1.3px;
+}
+a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+	text-decoration:none;
+	font-size:1.5rem;
+	font-family:Montserrat;
+	font-weight:200;
+	color:white;
+}
+.flist {
+	margin-top:1.5rem;
+}
+
+/* FOOTER BOTTOM SECTION */
+.footerbottom {
+    align-items: baseline;
+    display:flex;
+    justify-content: space-between;
+    padding: 0% 5% 3% 5%;
+	background-color:#262730;
+}
+.flogo {
+	color:white;
+}
+.flogoname {
+	padding-left:1rem;
+	display:inline-flex;
+	letter-spacing:1.3px;	
+	color:white;
+	font-family:hind;
+	font-size:4rem;
+	font-weight: bold;
+}
+.flogoimg {
+	height:4rem;
+}
+.footerB-R {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.smlogo {
+	margin-top:2rem;
+	width: 22%;
+}
+
+/* START SECTION 1  */
+.sec1header {
+    text-align:center;
+	font-size:4rem;
+	font-family:hind;
+	font-weight:700;
+	letter-spacing:1.3px;
+    color: #314936;
+    padding-top:5rem;
+    background-color:#eedfd2;
+}
+.sec1subh {
+    text-align:center;
+	font-size:1.5rem;
+	font-family:Montserrat;
+	font-weight:200;
+	letter-spacing:1.3px;
+    color: #314936;
+    background-color:#eedfd2;
+    padding-bottom:2rem;
+}
+.sdev1 {
+    padding-top:5rem;
+    display:inline-flex;
+    width:65%;
+    margin:auto;
+    padding-left:20vw;
+}
+.devimg {
+    border-radius:50px;
+    width:30rem;
+}
+
+h3.devnameL {
+    padding-top:5rem;
+    padding-left:23vw;
+    text-align:right;
+	font-size:2.5rem;
+	font-family:Montserrat;
+	font-weight:700;
+	letter-spacing:1.3px;
+	color: #FF7f50;
+}
+h3.devnameR {
+    padding-top:5rem;
+    padding-right:23vw;
+    text-align:left;
+	font-size:2.5rem;
+	font-family:Montserrat;
+	font-weight:700;
+	letter-spacing:1.3px;
+	color: #FF7f50;
+}
+p.devintroR {
+    padding-top:2rem;
+    padding-right:1rem;
+    text-align:left;
+	font-size:1.5rem;
+	font-family:Montserrat;
+	font-weight:200;
+	letter-spacing:1.3px;
+    color: #314936;
+}
+p.devintroL {
+    padding-top:2rem;
+    padding-left:1rem;
+    text-align:right;
+    margin-right:none;
+	font-size:1.5rem;
+	font-family:Montserrat;
+	font-weight:200;
+	letter-spacing:1.3px;
+    color: #314936;
+}
+h4.devroleL {
+    padding-top:1rem;
+    padding-left:1rem;
+    text-align:right;
+	font-size:1rem;
+	font-family:Montserrat;
+	font-weight:700;
+	letter-spacing:1.3px;
+	color: #314936;
+}
+h4.devroleR {
+    padding-top:1rem;
+    padding-right:1rem;
+    text-align:left;
+	font-size:1rem;
+	font-family:Montserrat;
+	font-weight:700;
+	letter-spacing:1.3px;
+	color: #314936;
+}
+
+/* BUTTON */
+.button {
+    padding: 1.3vw 4vw;
+    color: #ffffff;
+    background-color: #D09D7B;
+    border: none;
+    font-size: 1.7rem;
+	font-family: Montserrat;
+	font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
+
+/* START MEDIA QUERY 800PX */
+
+@media (max-width: 1200px) {
+    .footertop {
+        flex-wrap: wrap;
+    }
+    .footerT-L {
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    .footerT-R {
+        width: 50%;
+    }
+}
+
+@media (max-width:1024px) {
+	.devimg {
+		width:25rem;
+	}
+}
+@media (max-width: 800px) {
+	.sdev1{
+		padding-left:12vw;
+		}
+	.devimg {
+		width:20rem;
+	}
+
+	.button {
+        padding: 2.5vw 5vw;
+    }
+    .footerT-R {
+        width: 70%;
+        padding-top: 5%;
+    }
+    .footerB-R {
+        padding-top: 5%;
+        width: 25%;
+    }
+}
+
+
+/* START MEDIA QUERY 500PX */
+@media (max-width: 500px) {
+	
+	h3.devnameR {
+		padding-top:1rem;
+		margin-top:1rem;
+	}
+	h3.devnameL {
+		padding-top:1rem;
+		margin-top:1rem;
+	}
+	a.hlogonamea {
+		font-size:3rem;
+	}
+	
+	.sec1header {
+		font-size:3rem;
+	}
+	.sec1subh {
+		font-size:1rem;
+	}
+    .footerT-R {
+        flex-direction: column;
+    }
+    .liheaders{
+        padding-top: 15%;
+    }
+    .footerT-L {
+        padding-top: 8%;
+    }
+    .footerB-L {
+        padding-top: 10%;
+    }
+    .footerB-R {
+        width: 30%;
+    }
+	.sdev1 {
+		padding-left:2vw;
+	}
+	}
+	
+	/* END MEDIA QUERY 500PX */
+	
+

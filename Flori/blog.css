@@ -1,0 +1,384 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	font-size: 62.5%;
+	background:#e7e9ea;
+}
+
+/* HEADER LOGO */
+.hlogo {
+	display: flex;
+	font-size:4rem;
+	font-family:hind;
+	font-weight:700;
+	color:#314936;
+	padding:2rem;
+}
+a.hlogonamea, a.hlogonamesa:link, a.hlogonamesa:visited {
+	text-decoration:none;
+	font-size:4rem;
+	font-family:hind;
+	font-weight:700;
+	color:#314936;
+}
+.hlogoname {
+
+	padding-left:1rem;
+	padding-top:.8rem;
+	letter-spacing:1.3px;	
+}
+.hlogoimg {
+	height:5rem;
+}
+
+/* BLOG TITLE */
+#logo {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2%;
+}
+
+#logo h1 {
+	padding: 0 .25%;
+}
+
+#logo h1 {
+	color: #262730;
+	text-decoration: none;
+	font-size: 4rem;
+	font-family: Hind;
+}
+
+#categories {
+	display: flex;
+	justify-content: center;
+}
+
+#categories a {
+	font-family: Montserrat;
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: #262730;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 40px .5%;
+	padding-left: 1%;
+	border-left: 2px dotted #314937;
+}
+
+#categories a:hover {
+	color: #D09D7B;
+}
+
+/* POSTS */
+.posts {
+	display: flex;
+	padding: 0 10%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.post {
+	width: 360px;
+	margin-top: 5%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.post img {
+	width: 100%; /* width of container */
+	height: 470px; /* height of container */
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.post-category {
+	font-family: Montserrat;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #D09D7B;
+	padding: 6% 5% 0 5%;
+}
+
+.post-title {
+	color: #262730;
+	font-family: Hind;
+	font-size: 2.5rem;
+	padding-top: 10px;
+	line-height: 140%;
+	padding: 5% 6% 0 5%;
+}
+
+.post-excerpt {
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	line-height: 140%;
+	padding-top: 3%;
+	padding: 5% 5% 0 5%;
+}
+
+.post-bottom {
+	display: flex;
+	justify-content: space-between;
+	font-family: Montserrat;
+	color: #737373;
+	font-size: 1.2rem;
+	align-items: flex-end;
+	padding-top: 25px;
+	padding: 7% 6% 6% 6%;
+}
+
+.post-author {
+	width: 40%;
+}
+
+.comment-container {
+	display: flex;
+	justify-content: space-between;
+	width: 8.5%;
+	align-items: baseline;
+}
+
+.comment-container img {
+	width: 15px;
+	height: 15px;
+}
+
+.clock-container {
+	display: flex;
+	justify-content: space-between;
+	width: 27%;
+	align-items: baseline;
+}
+
+.clock-container img {
+	width: 15px;
+	height: 15px;
+}
+/* FOOTER TOP SECTION */
+.footertop {
+    display:flex;
+    margin-top: 150px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5%;
+	background-color:#262730;
+}
+.footerT-L {
+    width: 60%;
+}
+.footerT-R {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.footerLtext {
+	font-family:Montserrat;
+	font-weight:700;
+	color:white;
+	font-size:3rem;
+	letter-spacing:1.3px;
+}
+.footerLtext {
+	padding-bottom:3rem;
+}
+.liheaders {
+    color:white;
+    padding-bottom: 1rem;
+    font-size:2rem;
+	font-family:Montserrat;
+	Font-weight: bold;
+	letter-spacing: 1.3px;
+}
+a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+	text-decoration:none;
+	font-size:1.5rem;
+	font-family:Montserrat;
+	font-weight:200;
+	color:white;
+}
+.flist {
+	margin-top:1.5rem;
+}
+
+/* FOOTER BOTTOM SECTION */
+.footerbottom {
+    align-items: baseline;
+    display:flex;
+    justify-content: space-between;
+    padding: 0% 5% 3% 5%;
+	background-color:#262730;
+}
+.flogo {
+	color:white;
+}
+.flogoname {
+	padding-left:1rem;
+	display:inline-flex;
+	letter-spacing:1.3px;	
+	color:white;
+	font-family:hind;
+	font-size:4rem;
+	font-weight: bold;
+}
+.flogoimg {
+	height:4rem;
+}
+.footerB-R {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.smlogo {
+	margin-top:2rem;
+	width: 22%;
+}
+
+/* BUTTON */
+.button {
+    padding: 1.3vw 4vw;
+    color: #ffffff;
+    background-color: #D09D7B;
+    border: none;
+    font-size: 1.7rem;
+	font-family: Montserrat;
+	font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1500px){
+	.posts {
+		padding: 0 3%;
+	}
+}
+
+@media (max-width: 1200px){
+	.post {
+		width: 32%;
+	}
+
+	.comment-container {
+		visibility: hidden;;
+	}
+
+	.clock-container {
+		visibility: hidden;
+	}
+	.footerT-R {
+        width: 40%;
+    }
+    .footerB-R {
+        width: 15%;
+    }
+}
+
+@media (max-width: 1000px){
+	.button {
+        width: 3vw 5vw;
+	}
+	.footertop {
+        flex-wrap: wrap;
+    }
+	.footerT-L {
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    .footerT-R {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px){
+	.posts {
+		flex-direction: column;
+		padding: 0 18%;
+	}
+	.button {
+        padding: 2.5vw 5vw;
+    }
+
+	.post {
+		width: 100%;
+	}
+	.footerT-R {
+        width: 70%;
+        padding-top: 5%;
+    }
+    .footerB-R {
+        padding-top: 5%;
+        width: 25%;
+    }
+}
+
+@media (max-width: 500px){
+	#logo {
+		padding-top: 10%;
+	}
+
+	.posts {
+		padding: 8%;
+	}
+	.footerT-R {
+        flex-direction: column;
+    }
+    .liheaders{
+        padding-top: 15%;
+    }
+    .footerT-L {
+        padding-top: 8%;
+    }
+    .footerB-L {
+        padding-top: 10%;
+    }
+    .footerB-R {
+        width: 30%;
+    }
+}

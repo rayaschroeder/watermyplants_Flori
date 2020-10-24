@@ -1,0 +1,398 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/* FEATURES TITLE */
+.top-sect {
+    background: url("images/Header-Features.png") fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 4%;
+}
+
+/* HEADER LOGO */
+.hlogo {
+	display: flex;
+	font-size:4rem;
+	font-family:hind;
+	font-weight:700;
+	color:#314936;
+	padding:2rem;
+}
+a.hlogonamea, a.hlogonamesa:link, a.hlogonamesa:visited {
+	text-decoration:none;
+	font-size:4rem;
+	font-family:hind;
+	font-weight:700;
+	color:#314936;
+}
+.hlogoname {
+	padding-left:1rem;
+	padding-top:.8rem;
+	letter-spacing:1.3px;	
+}
+.hlogoimg {
+	height:5rem;
+}
+
+/* Features */
+
+.top {
+    display: flex;
+    margin: 8% 10% 4% 10%;
+}
+
+.top-img img {
+    border-radius: 10px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.txt h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #d09d7b;
+    text-transform: uppercase;
+    padding-top: 8%;
+}
+
+.txt h2 {
+    font-family: Hind;
+    color: #262730;
+    font-size: 3.5rem;
+    padding-top: 2%;
+    line-height: 110%;
+}
+
+.txt p {
+    padding-top: 4%;
+    font-family: Montserrat;
+    font-size: 1.7em;
+    line-height: 140%;
+    padding-right: 18%;
+}
+
+.txt a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.icon img{
+    width: 25%;
+}
+
+.icon h4 {
+    padding-left: 1%;
+    padding-top: 3%;
+    font-family: Montserrat;
+    color: #262730;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.icon p{
+    padding-top: 5%;
+    padding-left: 1%;
+    font-family: Montserrat;
+    color: #262730;
+    font-size: 1.4rem;
+    line-height: 140%;
+    padding-right: 25%;
+}
+
+.sign-up {
+    margin-top: 10%;
+    background: #e7e9ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7% 0%;
+}
+
+.sign-up h2 {
+    font-family: Hind;
+    color: #262730;
+    font-size: 2.8rem;
+    text-align: center;
+    line-height: 140%;
+    padding-bottom: 3%;
+}
+
+
+/* FOOTER TOP SECTION */
+.footertop {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5%;
+	background-color:#262730;
+}
+.footerT-L {
+    width: 60%;
+}
+.footerT-R {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.footerLtext {
+	font-family:Montserrat;
+	font-weight:700;
+	color:white;
+	font-size:3rem;
+	letter-spacing:1.3px;
+}
+.footerLtext {
+	padding-bottom:3rem;
+}
+.liheaders {
+    color:white;
+    padding-bottom: 1rem;
+    font-size:2rem;
+	font-family:Montserrat;
+	Font-weight: bold;
+	letter-spacing: 1.3px;
+}
+a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+	text-decoration:none;
+	font-size:1.5rem;
+	font-family:Montserrat;
+	font-weight:200;
+	color:white;
+}
+.flist {
+	margin-top:1.5rem;
+}
+
+/* FOOTER BOTTOM SECTION */
+.footerbottom {
+    align-items: baseline;
+    display:flex;
+    justify-content: space-between;
+    padding: 0% 5% 3% 5%;
+	background-color:#262730;
+}
+.flogo {
+	color:white;
+}
+.flogoname {
+	padding-left:1rem;
+	display:inline-flex;
+	letter-spacing:1.3px;	
+	color:white;
+	font-family:hind;
+	font-size:4rem;
+	font-weight: bold;
+}
+.flogoimg {
+	height:4rem;
+}
+.footerB-R {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.smlogo {
+	margin-top:2rem;
+	width: 22%;
+}
+
+
+
+/* BUTTON */
+.button {
+    padding: 1.3vw 4vw;
+    color: #ffffff;
+    background-color: #D09D7B;
+    border: none;
+    font-size: 1.7rem;
+	font-family: Montserrat;
+	font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
+
+
+/* MEDIA QUERIES */
+@media(max-width: 1200px){
+    .footerT-R {
+        width: 40%;
+    }
+    .footerB-R {
+        width: 15%;
+    }
+}
+
+@media (max-width: 1000px){
+    .top {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .button {
+        width: 3vw 5vw;
+    }
+    
+    .icons {
+        margin-right: 2%;
+        margin-left: 2%;
+        flex-wrap: wrap;
+    }
+
+    .icon {
+        width: 30%;
+        padding-top: 2%;
+    }
+    .footertop {
+        flex-wrap: wrap;
+    }
+    .footerT-L {
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    .footerT-R {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .top {
+        flex-direction: column;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .button {
+        padding: 2.5vw 5vw;
+    }
+
+    .top-img {
+        width: 100%;
+    }
+
+    .txt {
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .txt p {
+        padding-right: 6%;
+    }
+
+    .icons {
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+
+    .icon {
+        width: 50%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .sign-up h2 {
+        font-size: 2.3rem;
+    }
+    .footerT-R {
+        width: 70%;
+        padding-top: 5%;
+    }
+    .footerB-R {
+        padding-top: 5%;
+        width: 25%;
+    }
+}
+
+@media (max-width: 500px) {
+    .top img {
+        width: 100%;
+    }
+
+    .txt h2 {
+        font-size: 2.8rem;
+    }
+
+    .sign-up {
+        padding-top: 14%;
+        padding-bottom: 14%;
+    }
+
+    .sign-up h2 {
+        font-size: 2.1rem;
+    }
+    .footerT-R {
+        flex-direction: column;
+    }
+    .liheaders{
+        padding-top: 15%;
+    }
+    .footerT-L {
+        padding-top: 8%;
+    }
+    .footerB-L {
+        padding-top: 10%;
+    }
+    .footerB-R {
+        width: 30%;
+    }
+}
